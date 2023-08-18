@@ -1,0 +1,432 @@
+/* Define the animation */
+@keyframes slide-in {
+    from {
+        transform: translateY(500%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to the element */
+.element {
+    animation: slide-in 1s ease;
+}
+
+body {
+
+    overflow-x: hidden;
+    background-color: #e6e6e6;
+
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+#msp-logo1 {
+
+    height: 130px;
+    position: absolute;
+    left: 578px;
+    top: 0px;
+    border: #7fafc76e;
+
+}
+
+#column {
+
+    position: absolute;
+    top: 0px;
+    height: 80px;
+    width: 1357px;
+    left: 0px;
+    background: #90ADBB;
+
+}
+
+.effect {
+
+    animation: transitionIn 3s;
+
+}
+
+@keyframes transitionIn {
+
+    from {
+
+        opacity: 0;
+        transform: rotateX(-10deg);
+
+    }
+
+    to {
+
+        opacity: 1;
+        transform: rotateX(0deg);
+
+    }
+}
+
+/* BUTTONS */
+#home-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 325px;
+    top: 5px;
+
+}
+
+#project-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 450px;
+    top: 5px;
+
+}
+
+#ongoing-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    right: 275px;
+    top: 5px;
+
+}
+
+#contact-button {
+
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    right: 400px;
+    top: 5px;
+
+}
+
+.line-design {
+
+    position: absolute;
+    transform: rotate(90deg);
+    width: 140px;
+    top: 0px;
+    border-color: #7fafc76e;
+
+}
+
+#line1 {
+
+    left: 215px;
+
+}
+
+#line2 {
+
+    left: 345px;
+
+}
+
+#line3 {
+
+    right: 170px;
+
+}
+
+#line4 {
+
+    right: 307px;
+
+}
+
+#line5 {
+
+    left: 485px;
+
+}
+
+#line6 {
+
+    right: 510px;
+
+}
+
+.slogan-design {
+
+    font-family: 'Lilita One', cursive;
+    color: white;
+    font-size: 65px;
+    position: absolute;
+    top: 150px;
+
+}
+
+#slogan {
+
+    left: 20px;
+
+}
+
+#bg1 {
+
+    position: absolute;
+    height: 700px;
+    top: 80px;
+    left: 0px;
+
+}
+
+#logo {
+
+    position: absolute;
+    height: 100px;
+    top: 100px;
+    left: 20px;
+
+}
+
+#name {
+
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 25px;
+
+}
+
+#bg2 {
+
+    position: absolute;
+    top: 63px;
+    right: 0px;
+    height: 175px;
+
+}
+
+#bg3 {
+
+    position: absolute;
+    height: 627px;
+    right: 0px;
+    top: 398px;
+
+}
+
+img {
+    pointer-events: none;
+}
+
+#bg4 {
+
+    position: absolute;
+    top: 155px;
+    height: 400px;
+    right: 163px;
+
+}
+
+.button-52 {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding: 13px 20px 13px;
+    outline: 0;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    user-select: none;
+    top: 550px;
+    color: white;
+    left: 300px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media (min-width: 768px) {
+    .button-52 {
+        padding: 13px 50px 13px;
+    }
+}
+
+
+/* CSS */
+.button-56 {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    top: 550px;
+    left: 60px;
+    display: flex;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media (min-width: 768px) {
+    .button-56 {
+        padding: 0 40px;
+    }
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+#bg5 {
+
+    height: 652px;
+    position: absolute;
+    width: 875;
+    top: 780px;
+    left: 0px;
+
+}
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+#title {
+
+    top: 720px;
+    left: 525px;
+
+}
+
+#bg6 {
+
+    position: absolute;
+    top: 1238px;
+    left: 0px;
+    height: 1000px;
+    width: 1180px;
+
+}
+
+#bg7 {
+
+    height: 253px;
+    position: absolute;
+    top: 1289px;
+    left: 405px;
+
+}
+
+.subtitle {
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    position: absolute;
+    color: white;
+
+}
+
+#title1 {
+
+    top: 1125px;
+    left: 30px;
+
+}
+
+#bg8 {
+
+    position: absolute;
+    top: 980px;
+    left: 75px;
+    height: 150px;
+
+}
+
+.info {
+
+    position: absolute;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+#title2 {
+
+    top: 1180px;
+    left: 10px;
+
+}
+
+#title3 {
+
+    top: 920px;
+    text-align: center;
+    left: 285px;
+
+}
+
+#bg9 {
+
+    top: 785px;
+    left: 325px;
+    position: absolute;
+    height: 150px;
+
+}
+
+#title4 {
+
+    top: 1000px;
+    left: 250px;
+
+}
+
+#bg10 {
+
+    height: 150px;
+    position: absolute;
+    top: 1000px;
+    left: 650px;
+
+}
